@@ -16,7 +16,7 @@ import {
 function App() {
   return (
     <AuthWrapper>
-      <Router>
+      <Router basename="/e-commerce">
         <Navbar />
         <Sidebar />
         <Switch>
