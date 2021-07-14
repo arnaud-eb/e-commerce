@@ -14,8 +14,8 @@ const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
 ReactDOM.render(
   <React.StrictMode>
     <Auth0Provider
-      domain={domain}
-      clientId={clientId}
+      domain="dev-o2oofajo.eu.auth0.com"
+      clientId="dFsPYFsSn9OgtqAtAkCPuHZvssQwupfh"
       redirectUri={window.location.origin}
     >
       <ProductsProvider>
