@@ -16,7 +16,7 @@ ReactDOM.render(
     <Auth0Provider
       domain="dev-o2oofajo.eu.auth0.com"
       clientId="dFsPYFsSn9OgtqAtAkCPuHZvssQwupfh"
-      redirectUri={window.location.origin}
+      redirectUri={window.location.origin + "/e-commerce/"}
     >
       <ProductsProvider>
         <FilterProvider>

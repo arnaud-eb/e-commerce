@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 const PageHero = ({ name }) => {
   const path = window.location.pathname.toString().match(/(\/\w+)/g);
-  console.log(window.location.pathname.toString().match(/(\/\w+)/g));
   if (path.length === 2) {
     return (
       <Wrapper>
